@@ -1,0 +1,15 @@
+{%  extends "_login_base.html" %}
+
+{% block content %}
+    <main class="form-signin">
+        <h1 class="h3 mb-3 fw-normal"><i class="fa fa-warning"></i></h1>
+        <h4>You do not have access to this page.</h4>
+        <div class="col-md-12">
+            {%  include "_messages.html" %}
+        </div>
+
+        <div class="col-md-12 text-center">
+            <p><a class="btn btn-primary" href="/">Return to the home page</a></p>
+        </div>
+    </main>
+{%  endblock %}
